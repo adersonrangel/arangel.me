@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   // Use basePath only in production (GitHub Pages deployment)
-  basePath: process.env.NODE_ENV === "production" ? "/arangel.me" : "",
+  //basePath: process.env.NODE_ENV === "production" ? "/arangel.me" : "",
   typescript: {
     ignoreBuildErrors: true,
   },
