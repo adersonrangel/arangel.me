@@ -1,0 +1,12 @@
+:HL["/arangel.me/_next/static/chunks/8a80e7184ad3a13f.css","style"]
+:HL["/arangel.me/_next/static/chunks/209604ccfe7b46f0.css","style"]
+:HL["/arangel.me/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/arangel.me/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/modern-web-development-code-editor.jpg","image"]
+:HL["/typescript-programming-code.jpg","image"]
+:HL["/nextjs-server-components.jpg","image"]
+:HL["/css-animations-modern-design.jpg","image"]
+:HL["/database-optimization-performance.jpg","image"]
+:HL["/testing-unit-tests-code-quality.jpg","image"]
+:HL["/web-accessibility-inclusive-design.png","image"]
+0:{"buildId":"FGdKUrTgeIKheaRjhYY0l","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
