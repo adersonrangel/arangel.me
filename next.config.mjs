@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // No basePath needed when using custom domain (arangel.me)
-  // basePath is only needed for GitHub Pages project sites (username.github.io/repo-name)
+  // Solo usa basePath en producción (GitHub Pages)
+  basePath: process.env.NODE_ENV === "production" ? "/arangel.me" : "",
   typescript: {
     ignoreBuildErrors: true,
   },
