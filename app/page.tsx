@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -132,22 +133,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
 
@@ -176,22 +181,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
 
@@ -220,22 +229,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
 
@@ -264,22 +277,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
 
@@ -307,22 +324,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
 
@@ -351,22 +372,26 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex-1 bg-transparent"
-                >
-                  <ArrowRight className="mr-2 h-4 w-4" />
-                  Live Demo
-                </Button>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="#" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-transparent"
+                  >
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
           </div>
@@ -425,9 +450,11 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-primary/30 to-accent/30 rounded-2xl overflow-hidden">
-                <img
+                <Image
                   src="https://res.cloudinary.com/dv0gpxae9/image/upload/v1767187976/foto-arangelme.jpg"
                   alt="Developer Portrait"
+                  width={500}
+                  height={500}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -481,38 +508,46 @@ export default function Home() {
           </div>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border/50 hover:bg-secondary bg-transparent"
-            >
-              <Mail className="mr-2 h-5 w-5" />
-              Email Me
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border/50 hover:bg-secondary bg-transparent"
-            >
-              <Github className="mr-2 h-5 w-5" />
-              GitHub
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border/50 hover:bg-secondary bg-transparent"
-            >
-              <Linkedin className="mr-2 h-5 w-5" />
-              LinkedIn
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border/50 hover:bg-secondary bg-transparent"
-            >
-              <Twitter className="mr-2 h-5 w-5" />
-              Twitter
-            </Button>
+            <Link href="mailto:contact@example.com">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-border/50 hover:bg-secondary bg-transparent"
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                Email Me
+              </Button>
+            </Link>
+            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-border/50 hover:bg-secondary bg-transparent"
+              >
+                <Github className="mr-2 h-5 w-5" />
+                GitHub
+              </Button>
+            </Link>
+            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-border/50 hover:bg-secondary bg-transparent"
+              >
+                <Linkedin className="mr-2 h-5 w-5" />
+                LinkedIn
+              </Button>
+            </Link>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-border/50 hover:bg-secondary bg-transparent"
+              >
+                <Twitter className="mr-2 h-5 w-5" />
+                Twitter
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
