@@ -1,8 +1,15 @@
-import Link from "next/link"
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import Link from "next/link";
+import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
@@ -14,10 +21,16 @@ export default function Home() {
             &lt;dev/&gt;
           </Link>
           <div className="flex items-center gap-6">
-            <Link href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#projects"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               Projects
             </Link>
-            <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#about"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               About
             </Link>
             <Link href="/blog">
@@ -38,16 +51,24 @@ export default function Home() {
       <section className="container mx-auto px-4 py-20 md:py-32">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="inline-block">
-            <Badge variant="outline" className="border-primary/30 text-primary mb-4">
+            <Badge
+              variant="outline"
+              className="border-primary/30 text-primary mb-4"
+            >
               Available for freelance
             </Badge>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            <span className="text-balance">Building Digital Experiences for the</span>{" "}
-            <span className="neon-gradient neon-glow text-balance">Modern Web</span>
+            <span className="text-balance">
+              Building Digital Experiences for the
+            </span>{" "}
+            <span className="neon-gradient neon-glow text-balance">
+              Modern Web
+            </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            Full-stack software developer crafting exceptional user experiences with clean code and modern technologies.
+            Full-stack software developer crafting exceptional user experiences
+            with clean code and modern technologies.
           </p>
           <div className="flex items-center justify-center gap-4 pt-4">
             <Link href="#projects">
@@ -60,7 +81,11 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="#contact">
-              <Button size="lg" variant="outline" className="border-border/50 hover:bg-secondary bg-transparent">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-border/50 hover:bg-secondary bg-transparent"
+              >
                 Get in Touch
               </Button>
             </Link>
@@ -76,7 +101,8 @@ export default function Home() {
               Featured <span className="neon-gradient">Projects</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A selection of my recent work showcasing modern web development and creative problem-solving.
+              A selection of my recent work showcasing modern web development
+              and creative problem-solving.
             </p>
           </div>
 
@@ -93,7 +119,8 @@ export default function Home() {
                 </div>
                 <CardTitle>E-commerce Platform</CardTitle>
                 <CardDescription>
-                  Full-stack marketplace with real-time inventory and payment processing
+                  Full-stack marketplace with real-time inventory and payment
+                  processing
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -105,11 +132,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -128,7 +163,8 @@ export default function Home() {
                 </div>
                 <CardTitle>AI Chat Assistant</CardTitle>
                 <CardDescription>
-                  Intelligent conversational AI with contextual memory and API integration
+                  Intelligent conversational AI with contextual memory and API
+                  integration
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -140,11 +176,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -162,7 +206,10 @@ export default function Home() {
                   />
                 </div>
                 <CardTitle>Analytics Dashboard</CardTitle>
-                <CardDescription>Real-time data visualization with interactive charts and metrics</CardDescription>
+                <CardDescription>
+                  Real-time data visualization with interactive charts and
+                  metrics
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -173,11 +220,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -188,10 +243,17 @@ export default function Home() {
             <Card className="bg-card border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
               <CardHeader>
                 <div className="aspect-video bg-gradient-to-br from-accent/20 to-primary/20 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                  <img src="/mobile-fitness-tracking-app.jpg" alt="Fitness Tracker" className="w-full h-full object-cover" />
+                  <img
+                    src="/mobile-fitness-tracking-app.jpg"
+                    alt="Fitness Tracker"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <CardTitle>Fitness Tracker</CardTitle>
-                <CardDescription>Cross-platform mobile app for workout logging and progress tracking</CardDescription>
+                <CardDescription>
+                  Cross-platform mobile app for workout logging and progress
+                  tracking
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -202,11 +264,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -224,7 +294,9 @@ export default function Home() {
                   />
                 </div>
                 <CardTitle>Weather Forecast App</CardTitle>
-                <CardDescription>Beautiful weather app with location-based forecasts and alerts</CardDescription>
+                <CardDescription>
+                  Beautiful weather app with location-based forecasts and alerts
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -235,11 +307,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -250,10 +330,17 @@ export default function Home() {
             <Card className="bg-card border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
               <CardHeader>
                 <div className="aspect-video bg-gradient-to-br from-accent/20 to-primary/20 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                  <img src="/task-management-kanban.png" alt="Task Management" className="w-full h-full object-cover" />
+                  <img
+                    src="/task-management-kanban.png"
+                    alt="Task Management"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <CardTitle>Task Management</CardTitle>
-                <CardDescription>Collaborative project management tool with drag-and-drop interface</CardDescription>
+                <CardDescription>
+                  Collaborative project management tool with drag-and-drop
+                  interface
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -264,11 +351,19 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Code
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 bg-transparent">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1 bg-transparent"
+                >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
@@ -290,28 +385,51 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate software developer with expertise in building scalable web applications and delivering
-                exceptional user experiences. With a strong foundation in both frontend and backend technologies, I
-                thrive on solving complex problems and turning ideas into reality.
+                I'm a passionate software developer with expertise in building
+                scalable web applications and delivering exceptional user
+                experiences. With a strong foundation in both frontend and
+                backend technologies, I thrive on solving complex problems and
+                turning ideas into reality.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me writing technical articles, contributing to open-source projects, or
-                exploring the latest technologies in web development and AI.
+                When I'm not coding, you'll find me writing technical articles,
+                contributing to open-source projects, or exploring the latest
+                technologies in web development and AI.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Badge className="bg-primary/20 text-primary border-primary/30">JavaScript</Badge>
-                <Badge className="bg-primary/20 text-primary border-primary/30">TypeScript</Badge>
-                <Badge className="bg-primary/20 text-primary border-primary/30">React</Badge>
-                <Badge className="bg-primary/20 text-primary border-primary/30">Next.js</Badge>
-                <Badge className="bg-accent/20 text-accent border-accent/30">Node.js</Badge>
-                <Badge className="bg-accent/20 text-accent border-accent/30">Python</Badge>
-                <Badge className="bg-accent/20 text-accent border-accent/30">PostgreSQL</Badge>
-                <Badge className="bg-accent/20 text-accent border-accent/30">Docker</Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  JavaScript
+                </Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  TypeScript
+                </Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  React
+                </Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  Next.js
+                </Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">
+                  Node.js
+                </Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">
+                  Python
+                </Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">
+                  PostgreSQL
+                </Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">
+                  Docker
+                </Badge>
               </div>
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-primary/30 to-accent/30 rounded-2xl overflow-hidden">
-                <img src="/professional-developer-portrait.png" alt="Developer Portrait" className="w-full h-full object-cover" />
+                <img
+                  src="https://res.cloudinary.com/dv0gpxae9/image/upload/v1767187976/foto-arangelme.jpg"
+                  alt="Developer Portrait"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
@@ -325,11 +443,13 @@ export default function Home() {
         <Card className="bg-gradient-to-r from-primary/10 to-accent/10 border-primary/30">
           <CardHeader className="text-center space-y-4 pb-8">
             <CardTitle className="text-3xl md:text-4xl font-bold">
-              Tutorials, Stories and Ideas for the <span className="neon-gradient neon-glow">Curious Developer</span>
+              Tutorials, Stories and Ideas for the{" "}
+              <span className="neon-gradient neon-glow">Curious Developer</span>
             </CardTitle>
             <CardDescription className="text-lg max-w-2xl mx-auto">
-              Join me on a journey where every post brings a fresh perspective. This blog is for those who are driven by
-              curiosity and a desire to learn.
+              Join me on a journey where every post brings a fresh perspective.
+              This blog is for those who are driven by curiosity and a desire to
+              learn.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
@@ -354,25 +474,42 @@ export default function Home() {
               Let's <span className="neon-gradient">Connect</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm always interested in hearing about new projects and opportunities. Feel free to reach out through any
-              of the platforms below.
+              I'm always interested in hearing about new projects and
+              opportunities. Feel free to reach out through any of the platforms
+              below.
             </p>
           </div>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Button variant="outline" size="lg" className="border-border/50 hover:bg-secondary bg-transparent">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-border/50 hover:bg-secondary bg-transparent"
+            >
               <Mail className="mr-2 h-5 w-5" />
               Email Me
             </Button>
-            <Button variant="outline" size="lg" className="border-border/50 hover:bg-secondary bg-transparent">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-border/50 hover:bg-secondary bg-transparent"
+            >
               <Github className="mr-2 h-5 w-5" />
               GitHub
             </Button>
-            <Button variant="outline" size="lg" className="border-border/50 hover:bg-secondary bg-transparent">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-border/50 hover:bg-secondary bg-transparent"
+            >
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
             </Button>
-            <Button variant="outline" size="lg" className="border-border/50 hover:bg-secondary bg-transparent">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-border/50 hover:bg-secondary bg-transparent"
+            >
               <Twitter className="mr-2 h-5 w-5" />
               Twitter
             </Button>
@@ -384,15 +521,26 @@ export default function Home() {
       <footer className="border-t border-border/40 mt-20">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-muted-foreground">© 2025 Developer Portfolio. Built with Next.js and passion.</p>
+            <p className="text-sm text-muted-foreground">
+              © 2025 Developer Portfolio. Built with Next.js and passion.
+            </p>
             <div className="flex items-center gap-6">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
                 Privacy
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
                 Terms
               </Link>
-              <Link href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link
+                href="/blog"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
                 Blog
               </Link>
             </div>
@@ -400,5 +548,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
