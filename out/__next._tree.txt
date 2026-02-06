@@ -1,12 +1,11 @@
-:HL["/arangel.me/_next/static/chunks/8a80e7184ad3a13f.css","style"]
-:HL["/arangel.me/_next/static/chunks/209604ccfe7b46f0.css","style"]
-:HL["/arangel.me/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/arangel.me/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/8a80e7184ad3a13f.css","style"]
+:HL["/_next/static/chunks/f34dbde7dc7f5372.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/modern-saas-dashboard.png","image"]
 :HL["/ai-chatbot-interface-mobile.jpg","image"]
 :HL["/analytics-dashboard-visualization.png","image"]
 :HL["/mobile-fitness-tracking-app.jpg","image"]
 :HL["/weather-forecast-app.png","image"]
 :HL["/task-management-kanban.png","image"]
-:HL["/professional-developer-portrait.png","image"]
-0:{"buildId":"FGdKUrTgeIKheaRjhYY0l","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"tniTUDhNjunDQrUaVbLMc","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
