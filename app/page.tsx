@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons/brand-icons";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -139,7 +140,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -187,7 +188,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -235,7 +236,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -283,7 +284,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -330,7 +331,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -378,7 +379,7 @@ export default function Home() {
                     size="sm"
                     className="w-full bg-transparent"
                   >
-                    <Github className="mr-2 h-4 w-4" />
+                    <GithubIcon className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 </Link>
@@ -524,7 +525,7 @@ export default function Home() {
                 size="lg"
                 className="border-border/50 hover:bg-secondary bg-transparent"
               >
-                <Github className="mr-2 h-5 w-5" />
+                <GithubIcon className="mr-2 h-5 w-5" />
                 GitHub
               </Button>
             </Link>
@@ -534,7 +535,7 @@ export default function Home() {
                 size="lg"
                 className="border-border/50 hover:bg-secondary bg-transparent"
               >
-                <Linkedin className="mr-2 h-5 w-5" />
+                <LinkedinIcon className="mr-2 h-5 w-5" />
                 LinkedIn
               </Button>
             </Link>
@@ -544,7 +545,7 @@ export default function Home() {
                 size="lg"
                 className="border-border/50 hover:bg-secondary bg-transparent"
               >
-                <Twitter className="mr-2 h-5 w-5" />
+                <TwitterIcon className="mr-2 h-5 w-5" />
                 Twitter
               </Button>
             </Link>
