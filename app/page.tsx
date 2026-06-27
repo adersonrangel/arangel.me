@@ -102,6 +102,48 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {/* Project Parqueadero-app */}
+            <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
+              <CardHeader>
+                <div className="from-primary/20 to-accent/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <img
+                    src="https://res.cloudinary.com/dv0gpxae9/image/upload/v1782567329/parqueadero-app_so3msl.png"
+                    alt="Parking App - Monthly Plan Management System"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <CardTitle>Parking App - Monthly Plan Management System</CardTitle>
+                <CardDescription>
+                  This project is a modern, full-stack web application designed to streamline and
+                  centralize the management of monthly parking plan registrations. It addresses the
+                  operational complexities faced by parking facilities in tracking long-term
+                  customers, their vehicles, and their payment status.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Next.js</Badge>
+                  <Badge variant="secondary">TypeScript</Badge>
+                  <Badge variant="secondary">C#</Badge>
+                  <Badge variant="secondary">Supabase</Badge>
+                </div>
+              </CardContent>
+              <CardFooter className="gap-2">
+                <Link href="https://github.com/adersonrangel/parqueadero-app" className="flex-1">
+                  <Button variant="outline" size="sm" className="w-full bg-transparent">
+                    <GithubIcon className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="https://parqueadero-app.netlify.app" className="flex-1">
+                  <Button variant="outline" size="sm" className="w-full bg-transparent">
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
+
             {/* Project 1 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
