@@ -366,7 +366,7 @@ export default function BlogPage() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-muted-foreground text-sm">
-              © 2025 Developer Blog. Built with Next.js and passion.
+              © 2026 Developer Blog. Built with Next.js and passion.
             </p>
             <div className="flex items-center gap-6">
               <Link
