@@ -100,7 +100,12 @@
 
 /* Neon gradient text effect */
 .neon-gradient {
-  background: linear-gradient(90deg, oklch(0.65 0.25 265) 0%, oklch(0.6 0.25 280) 50%, oklch(0.6 0.25 300) 100%);
+  background: linear-gradient(
+    90deg,
+    oklch(0.65 0.25 265) 0%,
+    oklch(0.6 0.25 280) 50%,
+    oklch(0.6 0.25 300) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -108,6 +113,8 @@
 
 /* Glow effect for neon elements */
 .neon-glow {
-  text-shadow: 0 0 10px oklch(0.65 0.25 265 / 0.5), 0 0 20px oklch(0.65 0.25 265 / 0.3), 0 0 30px
-    oklch(0.6 0.25 300 / 0.2);
+  text-shadow:
+    0 0 10px oklch(0.65 0.25 265 / 0.5),
+    0 0 20px oklch(0.65 0.25 265 / 0.3),
+    0 0 30px oklch(0.6 0.25 300 / 0.2);
 }
