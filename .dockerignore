@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.git
+.github
+.vscode
+.gitignore
+.eslintrc*
+.prettierrc*
+README.md
+LICENSE
+azure-pipelines.yml
+_pipelines/
+dockerfile
+docker-compose.yml
+*.log
+.DS_Store

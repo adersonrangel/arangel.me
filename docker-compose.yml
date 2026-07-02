@@ -1,0 +1,6 @@
+services:
+  web:
+    image: inkra/arangel-me:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
