@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -46,11 +47,12 @@ export default function BlogPage() {
           {/* Featured Post */}
           <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 overflow-hidden transition-all duration-300 hover:shadow-lg">
             <div className="grid gap-6 md:grid-cols-2">
-              <div className="from-primary/30 to-accent/30 aspect-video overflow-hidden bg-gradient-to-br md:aspect-auto">
-                <img
+              <div className="from-primary/30 to-accent/30 relative aspect-video overflow-hidden bg-gradient-to-br md:aspect-auto">
+                <Image
                   src="/modern-web-development-code-editor.jpg"
                   alt="Featured Post"
-                  className="h-full w-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div className="flex flex-col justify-center p-6">
@@ -90,11 +92,12 @@ export default function BlogPage() {
             <div className="grid gap-6 md:grid-cols-2">
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-accent/20 to-primary/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-accent/20 to-primary/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/typescript-programming-code.jpg"
                       alt="TypeScript Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">
@@ -129,11 +132,12 @@ export default function BlogPage() {
 
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-primary/20 to-accent/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-primary/20 to-accent/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/nextjs-server-components.jpg"
                       alt="Next.js Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">
@@ -168,11 +172,12 @@ export default function BlogPage() {
 
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-accent/20 to-primary/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-accent/20 to-primary/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/css-animations-modern-design.jpg"
                       alt="CSS Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">
@@ -207,11 +212,12 @@ export default function BlogPage() {
 
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-primary/20 to-accent/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-primary/20 to-accent/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/database-optimization-performance.jpg"
                       alt="Database Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">
@@ -246,11 +252,12 @@ export default function BlogPage() {
 
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-accent/20 to-primary/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-accent/20 to-primary/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/testing-unit-tests-code-quality.jpg"
                       alt="Testing Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">
@@ -285,11 +292,12 @@ export default function BlogPage() {
 
               <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
                 <CardHeader>
-                  <div className="from-primary/20 to-accent/20 mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
-                    <img
+                  <div className="from-primary/20 to-accent/20 relative mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br">
+                    <Image
                       src="/web-accessibility-inclusive-design.png"
                       alt="Accessibility Article"
-                      className="h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   <div className="space-y-2">

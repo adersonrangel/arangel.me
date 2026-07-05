@@ -1,0 +1,12 @@
+services:
+  arangelme:
+    image: delta/arangel-me:latest
+    restart: always
+    network_mode: host
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.arangelme.rule=Host(`arangel.me`) || Host(`www.arangel.me`)"
+      - "traefik.http.routers.arangelme.entrypoints=websecure"
+      - "traefik.http.routers.arangelme.tls=true"
+      - "traefik.http.routers.arangelme.tls.certresolver=letsencrypt"
+      - "traefik.http.services.arangelme.loadbalancer.server.port=3000"
