@@ -105,11 +105,12 @@ export default function Home() {
             {/* Project Parqueadero-app */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-primary/20 to-accent/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-primary/20 to-accent/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="https://res.cloudinary.com/dv0gpxae9/image/upload/v1782567329/parqueadero-app_so3msl.png"
                     alt="Parking App - Monthly Plan Management System"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>Parking App - Monthly Plan Management System</CardTitle>
@@ -147,11 +148,12 @@ export default function Home() {
             {/* Project 1 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-primary/20 to-accent/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-primary/20 to-accent/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/modern-saas-dashboard.png"
                     alt="E-commerce Platform"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>E-commerce Platform</CardTitle>
@@ -186,11 +188,12 @@ export default function Home() {
             {/* Project 2 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-accent/20 to-primary/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-accent/20 to-primary/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/ai-chatbot-interface-mobile.jpg"
                     alt="AI Chat Assistant"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>AI Chat Assistant</CardTitle>
@@ -225,11 +228,12 @@ export default function Home() {
             {/* Project 3 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-primary/20 to-accent/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-primary/20 to-accent/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/analytics-dashboard-visualization.png"
                     alt="Analytics Dashboard"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>Analytics Dashboard</CardTitle>
@@ -264,11 +268,12 @@ export default function Home() {
             {/* Project 4 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-accent/20 to-primary/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-accent/20 to-primary/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/mobile-fitness-tracking-app.jpg"
                     alt="Fitness Tracker"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>Fitness Tracker</CardTitle>
@@ -303,11 +308,12 @@ export default function Home() {
             {/* Project 5 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-primary/20 to-accent/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-primary/20 to-accent/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/weather-forecast-app.png"
                     alt="Weather Forecast App"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>Weather Forecast App</CardTitle>
@@ -342,11 +348,12 @@ export default function Home() {
             {/* Project 6 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
-                <div className="from-accent/20 to-primary/20 mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
-                  <img
+                <div className="from-accent/20 to-primary/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
                     src="/task-management-kanban.png"
                     alt="Task Management"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <CardTitle>Task Management</CardTitle>
