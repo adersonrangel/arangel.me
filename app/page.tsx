@@ -412,6 +412,12 @@ export default function Home() {
                 <Badge className="bg-accent/20 text-accent border-accent/30">Python</Badge>
                 <Badge className="bg-accent/20 text-accent border-accent/30">PostgreSQL</Badge>
                 <Badge className="bg-accent/20 text-accent border-accent/30">Docker</Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">C#</Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">.Net</Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  Entity Framework
+                </Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">Oracle</Badge>
               </div>
             </div>
             <div className="relative">
