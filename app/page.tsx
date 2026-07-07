@@ -425,6 +425,7 @@ export default function Home() {
                   Entity Framework
                 </Badge>
                 <Badge className="bg-accent/20 text-accent border-accent/30">Oracle</Badge>
+                <Badge className="bg-accent/20 text-accent border-accent/30">Go</Badge>
               </div>
             </div>
             <div className="relative">
@@ -485,7 +486,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="mailto:contact@example.com">
+            <Link href="mailto:contacto@arangel.me">
               <Button
                 variant="outline"
                 size="lg"
@@ -495,7 +496,7 @@ export default function Home() {
                 Email Me
               </Button>
             </Link>
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/adersonrangel" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="lg"
@@ -505,7 +506,7 @@ export default function Home() {
                 GitHub
               </Button>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://linkedin.com/in/adersonrangel" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="lg"
@@ -515,14 +516,14 @@ export default function Home() {
                 LinkedIn
               </Button>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/adersonrangel" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="lg"
                 className="border-border/50 hover:bg-secondary bg-transparent"
               >
                 <TwitterIcon className="mr-2 h-5 w-5" />
-                Twitter
+                X
               </Button>
             </Link>
           </div>
