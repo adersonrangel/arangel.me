@@ -400,13 +400,13 @@ export default function Home() {
           <div className="grid items-center gap-8 md:grid-cols-2">
             <div className="space-y-6">
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm a passionate software developer with expertise in building scalable web
+                I&apos;m a passionate software developer with expertise in building scalable web
                 applications and delivering exceptional user experiences. With a strong foundation
                 in both frontend and backend technologies, I thrive on solving complex problems and
                 turning ideas into reality.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                When I'm not coding, you'll find me writing technical articles, contributing to
+                When I&apos;m not coding, you&apos;ll find me writing technical articles, contributing to
                 open-source projects, or exploring the latest technologies in web development and
                 AI.
               </p>
@@ -426,6 +426,7 @@ export default function Home() {
                 </Badge>
                 <Badge className="bg-accent/20 text-accent border-accent/30">Oracle</Badge>
                 <Badge className="bg-accent/20 text-accent border-accent/30">Go</Badge>
+                <Badge className="bg-primary/20 text-primary border-primary/30">Dapper</Badge>
               </div>
             </div>
             <div className="relative">
@@ -477,10 +478,10 @@ export default function Home() {
         <div className="mx-auto max-w-4xl space-y-8 text-center">
           <div className="space-y-4">
             <h2 className="text-4xl font-bold md:text-5xl">
-              Let's <span className="neon-gradient">Connect</span>
+              Let&apos;s <span className="neon-gradient">Connect</span>
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
-              I'm always interested in hearing about new projects and opportunities. Feel free to
+              I&apos;m always interested in hearing about new projects and opportunities. Feel free to
               reach out through any of the platforms below.
             </p>
           </div>
@@ -506,7 +507,11 @@ export default function Home() {
                 GitHub
               </Button>
             </Link>
-            <Link href="https://linkedin.com/in/adersonrangel" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://linkedin.com/in/adersonrangel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button
                 variant="outline"
                 size="lg"
@@ -522,8 +527,7 @@ export default function Home() {
                 size="lg"
                 className="border-border/50 hover:bg-secondary bg-transparent"
               >
-                <TwitterIcon className="mr-2 h-5 w-5" />
-                X
+                <TwitterIcon className="mr-2 h-5 w-5" />X
               </Button>
             </Link>
           </div>
