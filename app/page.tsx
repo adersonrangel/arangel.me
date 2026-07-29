@@ -145,6 +145,46 @@ export default function Home() {
               </CardFooter>
             </Card>
 
+            {/* Project Report HMS */}
+            <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
+              <CardHeader>
+                <div className="from-accent/20 to-primary/20 relative mb-4 flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br">
+                  <Image
+                    src="https://res.cloudinary.com/dv0gpxae9/image/upload/v1785342136/report-hms-dashboard.jpg"
+                    alt="Report HMS - Abonos Dashboard"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardTitle>Report HMS - Abonos</CardTitle>
+                <CardDescription>
+                  Panel de reportes de abonos del sistema HMS con dashboard interactivo de Power BI
+                  para visualizar montos, fechas y estados de transacciones en tiempo real.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">                  
+                  <Badge variant="secondary">Power BI</Badge>
+                  <Badge variant="secondary">Microsoft Fabric</Badge>
+                  <Badge variant="secondary">Sql Server</Badge>
+                </div>
+              </CardContent>
+              <CardFooter className="gap-2">
+                <Link href="https://github.com/adersonrangel/report-hms" className="flex-1">
+                  <Button variant="outline" size="sm" className="w-full bg-transparent">
+                    <GithubIcon className="mr-2 h-4 w-4" />
+                    Code
+                  </Button>
+                </Link>
+                <Link href="https://adersonrangel.github.io/report-hms/" className="flex-1">
+                  <Button variant="outline" size="sm" className="w-full bg-transparent">
+                    <ArrowRight className="mr-2 h-4 w-4" />
+                    Live Demo
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
+
             {/* Project 1 */}
             <Card className="bg-card border-border/50 hover:border-primary/50 hover:shadow-primary/10 transition-all duration-300 hover:shadow-lg">
               <CardHeader>
@@ -406,9 +446,9 @@ export default function Home() {
                 turning ideas into reality.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                When I&apos;m not coding, you&apos;ll find me writing technical articles, contributing to
-                open-source projects, or exploring the latest technologies in web development and
-                AI.
+                When I&apos;m not coding, you&apos;ll find me writing technical articles,
+                contributing to open-source projects, or exploring the latest technologies in web
+                development and AI.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Badge className="bg-primary/20 text-primary border-primary/30">JavaScript</Badge>
@@ -481,8 +521,8 @@ export default function Home() {
               Let&apos;s <span className="neon-gradient">Connect</span>
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
-              I&apos;m always interested in hearing about new projects and opportunities. Feel free to
-              reach out through any of the platforms below.
+              I&apos;m always interested in hearing about new projects and opportunities. Feel free
+              to reach out through any of the platforms below.
             </p>
           </div>
 
