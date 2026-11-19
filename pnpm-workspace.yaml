@@ -2,6 +2,7 @@ packages:
   - .
 minimumReleaseAgeExclude:
   - braces@3.0.4
+  - next@16.4.5
 overrides:
   brace-expansion: ^5.0.12
   braces: ^3.0.3
